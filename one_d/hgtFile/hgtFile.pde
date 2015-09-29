@@ -2,15 +2,18 @@ import peasy.*;
 import processing.opengl.*;
  
 PeasyCam cam;
-String FILE = "N47E006.hgt";
+
+String FILE = "../../data/N47W121.hgt";
 int W = 1201;
 int H = 1201;
+
 short[][] data;
  
 void setup() {
   size(1280, 960, OPENGL);
   cam = new PeasyCam(this, 1000);
   data = load(FILE);
+  
 }
  
 void draw() {
