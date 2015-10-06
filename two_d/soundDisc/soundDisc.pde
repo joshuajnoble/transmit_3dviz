@@ -95,3 +95,11 @@ void draw()
   noStroke();
   render.drawFaces(mesh);
 }
+
+void keyPressed()
+{
+  if(key == 'r')
+  {
+    HET_Export.saveToOBJ(mesh, "/Users/jnoble/code/Processing/export", "file");
+  }
+}
