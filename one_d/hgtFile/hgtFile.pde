@@ -3,7 +3,7 @@ import processing.opengl.*;
  
 PeasyCam cam;
 
-String FILE = "../../data/N47W121.hgt";
+String FILE = "../../data/N48W123.hgt";
 int W = 1201;
 int H = 1201;
 
@@ -21,7 +21,7 @@ void draw() {
   //translate(-width / 2, -height / 2);
   for (int y = 0 ; y < H ; y += 10) {
     for (int x = 0 ; x < W ; x += 10) {
-      point(x - (W / 2), -data[x][y]/4, y - (H / 2));
+      point(x - (W / 2), -data[x][y]/8, y - (H / 2));
     }
   }
 }

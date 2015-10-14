@@ -49,19 +49,8 @@ void setup() {
   
 }
 
-void draw(){
-  
-//  background(220);
-//  lights();  
-//  float zm = 250;
-//  float sp = 0.01 * frameCount;
-//  camera(zm * cos(sp), zm * sin(sp), zm, 0, 0, 0, 0, 0, -1);
-//
-//  noStroke();
-//
-//  fill(255,255,0);
-//  //stroke(100);
-//  wrap.plot();
+void draw()
+{
 
   background(120);
   lights();
