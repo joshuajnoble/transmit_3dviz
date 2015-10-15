@@ -13,7 +13,7 @@ String[] lines;
 String[] values;
 
 void setup() {
-  size(800, 800, OPENGL);
+  size(800, 800, P3D);
   smooth();
   
   // load some data
@@ -56,7 +56,7 @@ void draw() {
   lights();
   
   // put it in the center
-  translate(300, 300, 0);
+  translate(width/2, height/2, 0);
   
   // let us roll it around
   rotateY(mouseX*1.0f/width*TWO_PI);
