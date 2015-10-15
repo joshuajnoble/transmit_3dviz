@@ -95,6 +95,7 @@ void draw() {
     translate(width/2, height/2, 200);
     rotateY(mouseX*1.0f/width*TWO_PI);
     rotateX(mouseY*1.0f/height*TWO_PI);
+    rotateZ(PI);
     background(0);
     lights();
     fill(255);
